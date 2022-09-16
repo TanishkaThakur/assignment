@@ -26,7 +26,7 @@ namespace ConsoleApp2
 
 
                     Console.WriteLine("Enter Employee Number");
-                    int no = Convert.ToInt32(Console.ReadLine());
+                    int no = int.Parse(Console.ReadLine());
 
 
                     Console.WriteLine("Enter Employee Name");
@@ -34,7 +34,7 @@ namespace ConsoleApp2
 
 
                     Console.WriteLine("Enter Employee Salary");
-                    double sal = Convert.ToDouble(Console.ReadLine());
+                    double sal = double.Parse(Console.ReadLine());
 
 
 

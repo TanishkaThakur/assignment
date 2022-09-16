@@ -16,13 +16,13 @@ namespace ConsoleApp1
             Console.WriteLine("========================================");
 
             Console.WriteLine("Enter Employee Number");
-            int no = Convert.ToInt32(Console.ReadLine());
+            int no = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter Employee Name");
             string name = Console.ReadLine();
 
             Console.WriteLine("Enter Employee Salary");
-            double sal = Convert.ToDouble(Console.ReadLine());
+            double sal = double.Parse(Console.ReadLine());
 
             Employee emp = new Employee(no, name, sal);
             emp.CalculatedSalary();
