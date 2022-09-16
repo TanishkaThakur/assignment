@@ -17,7 +17,8 @@ namespace ConsoleApp2
             Console.WriteLine("========================================");
             Console.WriteLine("\tLITWARE ORGANIZATION");
             Console.WriteLine("========================================");
-            Console.WriteLine("<<Enter The Details>>");
+            Console.WriteLine("\n");
+            Console.WriteLine("\t<<Enter The Details>>");
             try
             {
                 while (x)
@@ -42,9 +43,10 @@ namespace ConsoleApp2
 
                     emp.CalculatedSalary();
 
-                    Console.WriteLine("Successfully Registered");
+                    Console.WriteLine("\n");
+                    Console.WriteLine("\t==Successfully Registered==");
 
-                    Console.WriteLine("Enter 0 to exit");
+                    Console.WriteLine("\tEnter 0 to exit");
 
                     int i = int.Parse(Console.ReadLine());
                     if (i == 0)
